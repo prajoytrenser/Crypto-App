@@ -59,8 +59,9 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.retrofit)
-    implementation("com.google.code.gson:gson:2.8.7")
-    implementation("com.google.dagger:hilt-android:2.38.1")
+    implementation(libs.gson)
+    implementation(libs.converter.gson)
+    implementation(libs.hilt.android)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
